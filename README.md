@@ -9,5 +9,5 @@ How to use SlimMagic, example code
 It's recommended that you use [Composer](https://getcomposer.org/)
 
 ```bash
-$ composer require atlantic8-web/slim-magic-example-simple "^1.0"
+$ composer require atlantic8-web/slim-magic-example-simple
 ```
