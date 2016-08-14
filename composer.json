@@ -6,8 +6,8 @@
         "palanik/corsslim": "dev-slim3",
         "slim/pdo": "~1.9",
         "slim/http-cache": "^0.3.0",
-        "slim/twig-view": "^2.1",
-        "atlantic8-web/slim-magic" : "^1.0"
+        "slim/twig-view": "^2.1"
+        
     },
     "license": "MIT",
     "homepage": "https://github.com/atlantic8-web/slim-magic-example-simple",
