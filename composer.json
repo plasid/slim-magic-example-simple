@@ -1,0 +1,26 @@
+{
+    "name": "atlantic8-web/slim-magic-example-simple",
+    "description": "SlimMagic example code",
+    "require": {
+        "slim/slim": "^3.0",
+        "palanik/corsslim": "dev-slim3",
+        "slim/pdo": "~1.9",
+        "slim/http-cache": "^0.3.0",
+        "slim/twig-view": "^2.1",
+        "atlantic8-web/slim-magic" : "^1.0"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/atlantic8-web/slim-magic-example-simple",
+    "authors": [
+        {
+            "name": "christof",
+            "email": "christof1000@gmail.com"
+        }
+    ],
+    "autoload": {
+    "psr-4": {
+      "app\\":"app/",
+      "service\\":"service"
+    }
+  }
+}
