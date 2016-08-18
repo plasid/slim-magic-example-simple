@@ -1,7 +1,7 @@
 {
     "name": "atlantic8-web/slim-magic-example-simple",
     "description": "SlimMagic example code",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "php": ">=5.4.0",
