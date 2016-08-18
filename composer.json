@@ -8,14 +8,7 @@
         "slim/http-cache": "^0.3.0",
         "slim/twig-view": "^2.1",
         "atlantic8-web/slim-magic": "^1.0"
-    },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/atlantic8-web/slim-magic-example-simple"
-        }
-    ],
-    "minimum-stability": "dev",
+    },    
     "license": "MIT",
     "homepage": "https://github.com/atlantic8-web/slim-magic-example-simple",
     "authors": [
