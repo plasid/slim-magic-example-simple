@@ -4,9 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "24539a5a479b9cc0d6a23fe410b90d5b",
-    "content-hash": "7dec0cea8dc4e68f2b939f324dde56f9",
+    "hash": "1bdb3ef9d0f9ac108f9fbb0bf81c4fb1",
+    "content-hash": "fe0f5f796b900cbf9288122ef89cb7e3",
     "packages": [
+        {
+            "name": "atlantic8-web/slim-magic",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/atlantic8-web/slim-magic.git",
+                "reference": "b77fb891bdf343d5ed202af500834dfe7abb7061"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/atlantic8-web/slim-magic/zipball/b77fb891bdf343d5ed202af500834dfe7abb7061",
+                "reference": "b77fb891bdf343d5ed202af500834dfe7abb7061",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "slim/slim": ">=3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SlimMagic\\": "src/SlimMagic/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "christof",
+                    "email": "christof1000@gmail.com"
+                }
+            ],
+            "description": "An auto router, auto discovery class mapper/loader for Slim Framework 3. Keeping your Slim bootstrapping clean no matter how many routes, dependencies and middleware you have.",
+            "homepage": "https://github.com/atlantic8-web/slim-magic",
+            "keywords": [
+                "auto router",
+                "bootstrap",
+                "class mapper",
+                "framework",
+                "mvc",
+                "slim",
+                "slim 3",
+                "slimphp"
+            ],
+            "time": "2016-08-14 16:35:31"
+        },
         {
             "name": "container-interop/container-interop",
             "version": "1.1.0",
@@ -271,16 +319,16 @@
         },
         {
             "name": "slim/pdo",
-            "version": "1.9.9",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FaaPz/Slim-PDO.git",
-                "reference": "2c3cf655e04859d0284a79997213616cb5e5282a"
+                "reference": "9424e6d5f3737a71722ab1f868c1d3090b63287d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FaaPz/Slim-PDO/zipball/2c3cf655e04859d0284a79997213616cb5e5282a",
-                "reference": "2c3cf655e04859d0284a79997213616cb5e5282a",
+                "url": "https://api.github.com/repos/FaaPz/Slim-PDO/zipball/9424e6d5f3737a71722ab1f868c1d3090b63287d",
+                "reference": "9424e6d5f3737a71722ab1f868c1d3090b63287d",
                 "shasum": ""
             },
             "require": {
@@ -313,7 +361,7 @@
                 "pdo",
                 "slim"
             ],
-            "time": "2016-05-29 10:56:40"
+            "time": "2016-08-14 11:42:49"
         },
         {
             "name": "slim/slim",
@@ -499,12 +547,14 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "palanik/corsslim": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.4.0"
+    },
     "platform-dev": []
 }

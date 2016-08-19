@@ -6,8 +6,8 @@ How to use SlimMagic, example code
 
 ## Installation
 
-It's recommended that you use [Composer](https://getcomposer.org/)
-
 ```bash
-$ composer require atlantic8-web/slim-magic-example-simple
+clone or download from https://github.com/atlantic8-web/slim-magic-example-simple
+
+//Then run composer update to install dependencies
 ```
