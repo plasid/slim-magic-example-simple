@@ -13,3 +13,4 @@ clone or download from https://github.com/atlantic8-web/slim-magic-example-simpl
 ```
 
 Check composer minimum stability
+
