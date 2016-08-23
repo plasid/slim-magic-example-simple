@@ -18,6 +18,7 @@ return [
         'log_to_screen' => true
     ],
     'slim_magic_settings' => [
+        'debug'=>false,
         'routes' => [
             //Home
             '/' => [
@@ -44,8 +45,7 @@ return [
         ],
         //This will be applied to all routes/apps
         'all' => [
-            'middleware' => ['Cors', 'Test'],//See Slim docs for importance of order
-            'middleware_order' => 0, //integer 0=add before all, 1=add after all         
+            'middleware' => ['Cors', 'Test'],//See Slim docs for importance of order           
             //Removed 'Db' from below service, you can add it once you have set the correct db_settings above
             'service' => ['Twig', 'notFoundHandler'] //Service dependencies
         ]

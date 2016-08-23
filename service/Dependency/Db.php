@@ -5,10 +5,13 @@ namespace service\Dependency;
 class Db
 {
 
-    public static function set(\Slim\Container $container)
+    public function set(\Slim\Container $container)
     {
-        $db = $container->db_settings;
-        $container['db'] = new \Slim\PDO\Database($db['dsn'], $db['username'], $db['password']);
+
+        $container['db'] = function($sc) {
+            $db = $sc->db_settings;
+            return new \Slim\PDO\Database($db['dsn'], $db['username'], $db['password']);
+        };
     }
 
 }

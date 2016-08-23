@@ -5,7 +5,7 @@ namespace service\Dependency;
 class notFoundHandler
 {
 
-    public static function set(\Slim\Container $container)
+    public function set(\Slim\Container $container)
     {
         $container['notFoundHandler'] = function ($c) {
             return function ($request, $response) use ($c) {

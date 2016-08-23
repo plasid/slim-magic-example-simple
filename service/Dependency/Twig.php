@@ -5,18 +5,19 @@ namespace service\Dependency;
 class Twig
 {
 
-    public static function set(\Slim\Container $container)
+    public function set(\Slim\Container $container)
     {
+        $container['view'] = function($c) {
+            $view = new \Slim\Views\Twig('view', [
+                    //'cache' => 'cache',
+            ]);
 
-        $view = new \Slim\Views\Twig('view', [
-                //'cache' => 'cache',
-        ]);
-
-        $view->addExtension(new \Slim\Views\TwigExtension(
-                $container['router'], $container['request']->getUri()
-        ));
-
-        $container['view'] = $view;
+            $view->addExtension(new \Slim\Views\TwigExtension(
+                    $c->router, $c->request->getUri()
+            ));
+            
+            return $view;
+        };
     }
 
 }
