@@ -6,7 +6,7 @@
     "require": {
         "php": ">=5.4.0",
         "slim/slim": "^3.0",
-        "palanik/corsslim": "dev-slim3",
+        "palanik/corsslim": "@dev",
         "slim/pdo": "~1.9",
         "slim/http-cache": "^0.3.0",
         "slim/twig-view": "^2.1",
