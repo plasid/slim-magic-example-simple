@@ -11,3 +11,5 @@ clone or download from https://github.com/atlantic8-web/slim-magic-example-simpl
 
 //Then run composer update to install dependencies
 ```
+
+Check composer minimum stability

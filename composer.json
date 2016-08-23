@@ -1,6 +1,7 @@
 {
     "name": "atlantic8-web/slim-magic-example-simple",
-    "description": "SlimMagic example code",   
+    "description": "SlimMagic example code",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "php": ">=5.4.0",
@@ -11,7 +12,7 @@
         "slim/twig-view": "^2.1",
         "atlantic8-web/slim-magic": "^1.0"
 
-    },    
+    },
     "license": "MIT",
     "homepage": "https://github.com/atlantic8-web/slim-magic-example-simple",
     "authors": [
@@ -21,9 +22,9 @@
         }
     ],
     "autoload": {
-    "psr-4": {
-      "app\\":"app/",
-      "service\\":"service"
+        "psr-4": {
+            "app\\": "app/",
+            "service\\": "service"
+        }
     }
-  }
 }
