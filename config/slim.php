@@ -42,6 +42,15 @@ return [
                 'arguments' => [],
                 'name' => ''
             ],
+            //Dynamic route example, 'appname' will be passed to your app in the args, 
+            //which you can use to load your desired app
+            '/{appname:[A-Za-z\-]+}' => [
+                'methods' => ['GET'],
+                'classmap' => 'app\Dynamic:route',
+                'middleware' => [],
+                'arguments' => [],
+                'name' => ''
+            ]
         ],
         //This will be applied to all routes/apps
         'all' => [
